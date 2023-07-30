@@ -2,3 +2,11 @@ pyrogram
 TgCrypto
 asyncio
 pymongo[srv]
+python-dotenv
+requests
+aiohttp
+aiofiles
+pyaes
+PySocks
+motor
+dnspython
