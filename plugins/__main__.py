@@ -5,7 +5,7 @@ downloader = (
        ":downloader:",
        API_ID,
        API_HASH,
-       bot_token=BOT_TOKEN,
+       BOT_TOKEN,
        plugins=dict(root="plugins.modules")
 )
 print("Bot started!")
