@@ -1,7 +1,7 @@
 pyrogram
 TgCrypto
 asyncio
-pymongo[srv]
+pyyaml
 python-dotenv
 requests
 aiohttp
@@ -10,3 +10,13 @@ pyaes
 PySocks
 motor
 dnspython
+speedtest-cli
+wget
+apscheduler
+yt_dlp
+cachetools==5.1.0
+asyncio
+ujson
+pymongo[srv]
+cachetools
+pyromod
