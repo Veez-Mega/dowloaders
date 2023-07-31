@@ -8,7 +8,7 @@ start_keyboard = InlineKeyboardMarkup( [[
        InlineKeyboardButton("Updates", url="t.me/levinachannel"),
        ]]
        )
-start_keyboard = InlineKeyboardMarkup( [[
+help_keyboard = InlineKeyboardMarkup( [[
        InlineKeyboardButton("Instagram", callback_data="help"),
        ],[
        InlineKeyboardButton("Youtube", callback_data="yt"),
