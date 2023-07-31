@@ -1,4 +1,4 @@
-from pyrogram.types InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message
 from pyrogram import Client, filters
 
 start_keyboard = InlineKeyboardMarkup( [[
