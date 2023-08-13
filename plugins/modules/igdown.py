@@ -5,7 +5,7 @@ import requests
 
 
 @Client.on_message(filters.command("igdown") & filters.regex(r'https?://(?:www\.)?instagram\.com/p/[-_a-zA-Z0-9]+/?'))
-def download(client, message):
+def igdown(client, message):
     print("Received igdown command")
     instagram_post = message.text.split(" ", 1)[1]
 
